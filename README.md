@@ -21,7 +21,7 @@ import matplotlib.pyplot as plt
 from statsmodels.tsa.seasonal import seasonal_decompose
 
 # Load the dataset
-data = pd.read_csv('/content/bike_dataset.csv')
+data = pd.read_csv('/content/bike_sales_india.csv')
 
 # Convert Year column to datetime and set as index
 data['Year'] = pd.to_datetime(data['Year'], format='%Y')
@@ -64,20 +64,28 @@ plt.show()
 ```
 
 ### OUTPUT:
-FIRST FIVE ROWS:
+## FIRST FIVE ROWS:
+<img width="767" height="270" alt="Screenshot 2026-03-14 110340" src="https://github.com/user-attachments/assets/a81e6595-f60b-4568-9ef8-db6f5ff1edf8" />
 
 
 
-PLOTTING THE DATA:
-
-SEASONAL PLOT REPRESENTATION :
-
+## PLOTTING THE DATA:
+<img width="763" height="232" alt="Screenshot 2026-03-14 110426" src="https://github.com/user-attachments/assets/7e6cb99e-21f9-4834-a23b-a4525f0cd1cc" />
 
 
-TREND PLOT REPRESENTATION :
 
-OVERAL REPRESENTATION:
+## SEASONAL PLOT REPRESENTATION :
 
+<img width="762" height="230" alt="Screenshot 2026-03-14 110439" src="https://github.com/user-attachments/assets/6600d006-8884-4332-beea-098a128c5469" />
+
+
+## TREND PLOT REPRESENTATION :
+<img width="775" height="233" alt="Screenshot 2026-03-14 110432" src="https://github.com/user-attachments/assets/9f5e2454-406f-454b-983b-7009dce245e1" />
+
+ 
+## OVERAL REPRESENTATION:
+
+<img width="772" height="223" alt="Screenshot 2026-03-14 110446" src="https://github.com/user-attachments/assets/2f11da1c-04fa-46a4-b773-827832f4af0a" />
 
 
 ### RESULT:
